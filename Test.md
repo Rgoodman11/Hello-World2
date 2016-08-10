@@ -22,7 +22,7 @@ All views make use of a common data set, and some components are reused across v
 
 
 
-*** Job Demand Data & RDF Store ***
+***Job Demand Data & RDF Store***
 
 * Data extracted from Nov 2015
 	- total count after completion of the data acquisition and enrichment process - 316,841.
@@ -35,12 +35,12 @@ Validation of the results of data acquisition is based on the EDSA Skills and Jo
 * Coverage end Jun 2016 - 22 EU and 5 EEA countries
 
 
-*** Skill extraction ***
+***Skill extraction***
 	- post Nov 2015 the process employs the JSI data acquisition pipeline. Skills relevant to Data Science are extracted from the input data based on concepts defined in DBpedia [7]. The pipeline employs automatic annotation, but with the option for manual correction. Where required for data analysis and presentation on the dashboard, manual mapping to the named (WP1) EDSA skills and skill sets is carried out on the input data.
 
 
 
-*** Development ***
+***Development***
 
 Redevelopment of map view - a number of limitations in the original visualisation and data processing libraries prevented detailed map views beyond a very low threshold (around 10K entries). The map-based view has therefore been rebuilt; a single layout built for the policy maker view is reused in the job seeker view. Statistical charts directly coupled to the map view provide extra detail for selected data attributes - time (posting date); location (city & country); skills (a superset of the named EDSA skills). 
 
@@ -51,13 +51,13 @@ The skillset viewer (employing parallel coordinates) has been updated to display
 
 
 
-*** Update of EDSA Website ***
+***Update of EDSA Website***
 
 The most recent update was completed end June 2016. This version was demoed at EDF 2016. End users also now have access to a public SPARQL endpoint; sample queries are available from the Dashboard. The component and input data descriptions (including that of the supply data analysis) have also been updated.
 
 
 
-*** Other Related Work ***
+***Other Related Work***
 
 Initial analysis of the idexLab expertise dataset is on-going. This will feed into skills analysis and the practitioner view in the Dashboard.
 
