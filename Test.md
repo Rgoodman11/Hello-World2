@@ -13,7 +13,7 @@ Developers meeting held Mar 08-10, hosted by JSI
 
 [DETAIL]
 
-*** Design Review ***
+***Design Review***
 
 The current version of the dashboard (on the EDSA website [4] - updated end Jun 2016) is based on a full user interface (UI) and system design review, carried out during the Mar 2016 developers meeting in Ljubljana. The new UI design sketches are available at [1]. 
 Key changes are to present data and (three main) views based on core user tasks for three key users: the policy maker, the job seeker and the Data Science practitioner or expert.
